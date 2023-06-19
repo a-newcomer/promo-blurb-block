@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "afn/promo-contact-blurb",
+	"version": "0.1.0",
+	"title": "Promo Contact Blurb",
+	"category": "widgets",
+	"icon": "id",
+	"description": "A striking promo blurb/call to action with a default link to the contact page good to add at the bottom of posts and pages.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content":{
+			"type": "string",
+			"source": "html",
+			"selector": "p",
+			"default": "Give your manuscript the understanding and attention it deserves."
+		},
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3",
+			"default": "Ruthless Compassion"
+		},
+		"align":{
+			"type": "string",
+			"default": "center"
+		},
+		"backgroundColor" :{
+			"type": "string",
+			"default": "rgb(164, 12, 12)"
+		},
+		"textColor" :{
+			"type": "string",
+			"default": "var(--wp--preset--color--background"
+		},
+		"heading":{
+			"type":"string"
+		},
+		"iconName":{
+			"type":"string"
+		},
+		"showHeading":{
+			"type":"boolean"
+		},
+		"kaLink": {
+			"type": "string",
+			"default": ""
+		},
+		"linkLabel": {
+			"type": "string",
+			"default": "Contact Me"
+		},
+		"hasLinkNofollow": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"styles": [
+	{
+		"name": "default",
+		"label": "Primary Button",
+		"isDefault": true
+	},
+	{
+		"name": "secondary",
+		"label": "Secondary"
+	}
+],
+	"textdomain": "promo-contact-blurb",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
