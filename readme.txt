@@ -8,7 +8,7 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Adds a simple static custom Gutenberg block for calls to action, which features an easy-to-use headline, text and link and default text appropriate for a developmental editor's site.
+Adds a simple static custom Gutenberg block for calls to action, which features an easy-to-use headline, text and link and default text appropriate for a developmental editor's site. Made with javascript (React),PHP and SCSS.
 
 == Installation ==
 
