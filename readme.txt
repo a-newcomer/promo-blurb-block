@@ -1,4 +1,4 @@
-=== Promo Contact Blurb ===
+=== Promo Contact Blurb Plugin ===
 Contributors:      A Newcomer on the base of the work by the WordPress Contributors
 Tags:              block, static block, cta block
 Tested up to:      6.1
